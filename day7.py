@@ -12,7 +12,7 @@ def parse(filepath):
 
 
 if __name__ == "__main__":
-    parsed = parse('./day7.txt')
+    parsed = parse('input/day7.txt')
     current_dir = ""
     result = defaultdict(lambda: [])
     for row in parsed:

@@ -25,7 +25,7 @@ def move_tail(head, tail):
 
 
 if __name__ == "__main__":
-    parsed = parse('./day9.txt')
+    parsed = parse('input/day9.txt')
     directions = {"R": [1, 0], "L": [-1, 0], "U": [0, 1], "D": [0, -1]}
 
     head = [0, 0]

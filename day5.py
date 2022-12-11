@@ -28,7 +28,7 @@ def get_stacks(file):
 
 
 if __name__ == "__main__":
-    parsed = parse('./day5.txt')
+    parsed = parse('input/day5.txt')
     stacks = get_stacks(parsed)
     # print(stacks)
     for line in parsed:

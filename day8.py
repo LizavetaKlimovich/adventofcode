@@ -43,7 +43,7 @@ def find_scenery(tree, line, do_reverse):
 
 
 if __name__ == "__main__":
-    parsed = parse('./day8.txt')
+    parsed = parse('input/day8.txt')
 
     counter = defaultdict(lambda: 1)
     for i, line in enumerate(parsed):

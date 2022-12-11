@@ -34,7 +34,7 @@ def looses(value):
 
 
 if __name__ == "__main__":
-    parsed = parse('./day2.txt')
+    parsed = parse('input/day2.txt')
     total = 0
     for you, me in parsed:
         if me == "X":

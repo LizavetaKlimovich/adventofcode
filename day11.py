@@ -30,7 +30,7 @@ def parse(filepath):
 
 
 if __name__ == "__main__":
-    monkeys = parse("day11.txt")
+    monkeys = parse("input/day11.txt")
     common_div = reduce(lambda x, y: x*y, [m.test for m in monkeys])
     counter = Counter()
     for i in range(10000):

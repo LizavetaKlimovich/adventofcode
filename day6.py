@@ -12,7 +12,7 @@ def parse(filepath):
 
 
 if __name__ == "__main__":
-    parsed = parse('./day6.txt')
+    parsed = parse('input/day6.txt')
     for line in parsed:
         for i, letter in enumerate(line):
             if len(set(line[i: i+14])) == 14:

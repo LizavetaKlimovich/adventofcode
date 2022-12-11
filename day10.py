@@ -32,7 +32,7 @@ def part1(parsed):
 
 
 if __name__ == "__main__":
-    parsed = parse("./day10.txt")
+    parsed = parse("input/day10.txt")
     x = 1
     termin = 0
     pixel = (x-1, x, x+1)

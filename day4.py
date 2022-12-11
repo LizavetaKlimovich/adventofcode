@@ -11,7 +11,7 @@ def parse(filepath):
 
 
 if __name__ == "__main__":
-    parsed = parse('./day4.txt')
+    parsed = parse('input/day4.txt')
     count = 0
     group = []
     for line in parsed:

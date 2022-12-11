@@ -21,7 +21,7 @@ def find_common_of_group(group):
 
 
 if __name__ == "__main__":
-    parsed = parse('./day3.txt')
+    parsed = parse('input/day3.txt')
     total = 0
     group = []
     for i, line in enumerate(parsed):
